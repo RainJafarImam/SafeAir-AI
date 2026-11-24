@@ -1,0 +1,94 @@
+{
+  "timestamp": "2026-11-24T09:19:05.930355",
+  "model": "openai/gpt-oss-120b",
+  "provider": "Groq",
+  "benchmark_query_count": 6,
+  "metrics": {
+    "average_retrieval_latency_ms": 20.98,
+    "average_generation_latency_ms": 1063.46,
+    "average_total_latency_ms": 1084.44,
+    "average_groundedness_faithfulness": 0.432,
+    "average_answer_relevance": 0.642,
+    "guardrail_compliance_rate": 1.0
+  },
+  "records": [
+    {
+      "id": "Q1",
+      "category": "CPCB Standards",
+      "query": "What are the official CPCB 24-hour safe limits for PM2.5 and PM10 in India?",
+      "retrieval_latency_ms": 31.2,
+      "generation_latency_ms": 1373.35,
+      "total_latency_ms": 1404.55,
+      "groundedness_score": 0.556,
+      "answer_relevance_score": 1.0,
+      "guardrail_adherence": true,
+      "contexts_retrieved": 3,
+      "generated_sample": "The CPCB 24\u2011hour safe limits are:\n\n- **PM2.5:** 60\u202f\u00b5g/m\u00b3  \n- **PM10:** 100\u202f\u00b5g/m\u00b3..."
+    },
+    {
+      "id": "Q2",
+      "category": "Persona Health Risk",
+      "query": "Is it safe for an asthmatic patient to jog outdoors when AQI is 180?",
+      "retrieval_latency_ms": 18.1,
+      "generation_latency_ms": 1084.15,
+      "total_latency_ms": 1102.25,
+      "groundedness_score": 0.273,
+      "answer_relevance_score": 0.286,
+      "guardrail_adherence": true,
+      "contexts_retrieved": 3,
+      "generated_sample": "No. With an AQI of\u202f180, the level is well above the 150 threshold at which asthma patients should avoid all outdoor aero..."
+    },
+    {
+      "id": "Q3",
+      "category": "Pollutant Synergy",
+      "query": "How do combined elevated levels of NO2 and SO2 impact respiratory health?",
+      "retrieval_latency_ms": 18.92,
+      "generation_latency_ms": 1052.32,
+      "total_latency_ms": 1071.24,
+      "groundedness_score": 0.154,
+      "answer_relevance_score": 0.4,
+      "guardrail_adherence": true,
+      "contexts_retrieved": 3,
+      "generated_sample": "Elevated NO\u2082 and SO\u2082 together act synergistically, provoking severe bronchospasm that can sharply worsen breathing, espe..."
+    },
+    {
+      "id": "Q4",
+      "category": "Indoor Precautions",
+      "query": "What specific indoor air management precautions are recommended during Severe AQI above 400?",
+      "retrieval_latency_ms": 21.92,
+      "generation_latency_ms": 973.64,
+      "total_latency_ms": 995.56,
+      "groundedness_score": 0.538,
+      "answer_relevance_score": 0.667,
+      "guardrail_adherence": true,
+      "contexts_retrieved": 3,
+      "generated_sample": "During Severe AQI episodes above\u202f400, the recommended indoor precautions are to **seal all windows** to prevent polluted..."
+    },
+    {
+      "id": "Q5",
+      "category": "Demographic Comparison",
+      "query": "Compare the vulnerability multiplier of COPD patients versus the general population.",
+      "retrieval_latency_ms": 17.79,
+      "generation_latency_ms": 1016.66,
+      "total_latency_ms": 1034.45,
+      "groundedness_score": 0.271,
+      "answer_relevance_score": 1.0,
+      "guardrail_adherence": true,
+      "contexts_retrieved": 3,
+      "generated_sample": "COPD patients have a vulnerability multiplier of **2.2\u202f\u00d7**, which is **2.2 times higher** than the general population\u2019s ..."
+    },
+    {
+      "id": "Q6",
+      "category": "AQI Categorization",
+      "query": "What are the CPCB numerical index boundaries for Satisfactory vs Poor air quality?",
+      "retrieval_latency_ms": 17.95,
+      "generation_latency_ms": 880.64,
+      "total_latency_ms": 898.59,
+      "groundedness_score": 0.8,
+      "answer_relevance_score": 0.5,
+      "guardrail_adherence": true,
+      "contexts_retrieved": 3,
+      "generated_sample": "According to the CPCB AQI scale:\n\n- **Satisfactory:** AQI\u202f51\u202f\u2013\u202f100  \n- **Poor:** AQI\u202f201\u202f\u2013\u202f300..."
+    }
+  ]
+}

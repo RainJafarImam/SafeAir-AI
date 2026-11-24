@@ -1,0 +1,65 @@
+# ==============================================================================
+# SafeAir AI — Git Ignore Configuration
+# ==============================================================================
+
+# Environment variables & secrets (CRITICAL: Never commit real API keys)
+.env
+.env.*
+!.env.example
+*.env
+
+# SQLite local databases (>100MB, rejected by GitHub)
+data/aqi_store.db
+data/aqi_store.db-shm
+data/aqi_store.db-wal
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Local vector store indices & embeddings
+data/chroma_db/
+chroma_db/
+
+# Python bytecode & cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Application logs & telemetry dumps
+logs/
+*.log
+
+# Unit test & type check caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Editor & IDE configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build & packaging artifacts
+build/
+dist/
+*.egg-info/
