@@ -58,6 +58,9 @@ $RECYCLE.BIN/
 .idea/
 *.sublime-project
 *.sublime-workspace
+.~lock.*
+.~lock.*#
+~$*
 
 # Build & packaging artifacts
 build/

@@ -288,13 +288,12 @@ python evaluate_rag.py
 
 ---
 
-## 📚 Academic Documentation & Research Papers
+## 📚 Academic Project Documentation & Thesis Deliverables
 
-For academic evaluators, university committees, and researchers, complete thesis materials are located in the `docs/` folder:
+For academic evaluators, university committees, and researchers, complete project materials are located in the `docs/` folder:
 
 | Document | Format | Description |
 | :--- | :---: | :--- |
-| **Academic Research Paper (Elsevier Format)** | [.docx](docs/SafeAir_AI_Research_Paper.docx) \| [.md](docs/SafeAir_AI_Research_Paper.md) | Final peer-reviewed journal format (Elsevier ScienceDirect standard, Article Info box, 3-line tables, CReDiT statement, Harvard/APA references). |
 | **Comprehensive Project Report** | [.docx](docs/SafeAir_AI_Project_Report.docx) \| [.md](docs/SafeAir_AI_Project_Report.md) | 10-Chapter formal project report including Title Page, Certificate, Abstract, Architecture, Implementation, and References. |
 | **Project Synopsis** | [.docx](docs/SafeAir_AI_Project_Synopsis.docx) \| [.md](docs/SafeAir_AI_Project_Synopsis.md) | Formal 4-page academic submission synopsis for project review committee. |
 | **Medical & Epidemiological Research** | [.md](docs/Research.md) | Clinical analysis of $PM_{2.5}$, $PM_{10}$, $NO_2$, and $O_3$ health mechanics across vulnerable cohorts. |
