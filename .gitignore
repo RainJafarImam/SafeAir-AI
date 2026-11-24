@@ -62,6 +62,10 @@ $RECYCLE.BIN/
 .~lock.*#
 ~$*
 
+# Binary Word documents (kept locally on disk, excluded from GitHub)
+*.docx
+*.doc
+
 # Build & packaging artifacts
 build/
 dist/

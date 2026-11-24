@@ -294,8 +294,9 @@ For academic evaluators, university committees, and researchers, complete projec
 
 | Document | Format | Description |
 | :--- | :---: | :--- |
-| **Comprehensive Project Report** | [.docx](docs/SafeAir_AI_Project_Report.docx) \| [.md](docs/SafeAir_AI_Project_Report.md) | 10-Chapter formal project report including Title Page, Certificate, Abstract, Architecture, Implementation, and References. |
-| **Project Synopsis** | [.docx](docs/SafeAir_AI_Project_Synopsis.docx) \| [.md](docs/SafeAir_AI_Project_Synopsis.md) | Formal 4-page academic submission synopsis for project review committee. |
+| **Comprehensive Project Report** | [.md](docs/SafeAir_AI_Project_Report.md) | 10-Chapter formal project report including Title Page, Certificate, Abstract, Architecture, Implementation, and References (Word .docx compiled locally). |
+| **Project Synopsis** | [.md](docs/SafeAir_AI_Project_Synopsis.md) | Formal 4-page academic submission synopsis for project review committee (Word .docx compiled locally). |
+| **Research Paper Content Repository** | [.txt](docs/SafeAir_AI_Research_Content_Repository.txt) | Complete unformatted data dump, mathematical formulations, benchmarks, and citations for authoring research papers. |
 | **Medical & Epidemiological Research** | [.md](docs/Research.md) | Clinical analysis of $PM_{2.5}$, $PM_{10}$, $NO_2$, and $O_3$ health mechanics across vulnerable cohorts. |
 
 ---
