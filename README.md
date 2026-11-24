@@ -294,6 +294,7 @@ For academic evaluators, university committees, and researchers, complete thesis
 
 | Document | Format | Description |
 | :--- | :---: | :--- |
+| **Academic Research Paper** | [.docx](docs/SafeAir_AI_Research_Paper.docx) \| [.md](docs/SafeAir_AI_Research_Paper.md) | Formal IEEE publication-format research paper with mathematical formulations, benchmarks, and IEEE references. |
 | **Comprehensive Project Report** | [.docx](docs/SafeAir_AI_Project_Report.docx) \| [.md](docs/SafeAir_AI_Project_Report.md) | 10-Chapter formal project report including Title Page, Certificate, Abstract, Architecture, Implementation, and References. |
 | **Project Synopsis** | [.docx](docs/SafeAir_AI_Project_Synopsis.docx) \| [.md](docs/SafeAir_AI_Project_Synopsis.md) | Formal 4-page academic submission synopsis for project review committee. |
 | **Medical & Epidemiological Research** | [.md](docs/Research.md) | Clinical analysis of $PM_{2.5}$, $PM_{10}$, $NO_2$, and $O_3$ health mechanics across vulnerable cohorts. |
